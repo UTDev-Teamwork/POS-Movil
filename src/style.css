@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+*{
+    padding: 0.5%;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-image: url("https://raw.githubusercontent.com/eduardrivs/Resources/main/Pos-movilRS/bg/FondoModified.jpg");
+    /*background-image: url("https://wallpapercave.com/wp/wp2825940.jpg");*/
+    background-size: 25%;
+}
+
+.body{
+    text-align: center;
+}
+
+#encabezado{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-weight: 1000;
+    font-size: 65px;
+    text-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.2);
+    font-family: 'Dosis', sans-serif;
+}
+
+.card{
+    width: 18rem;
+    display: inline-block;
+    margin: 2% 0% 2% 0%;
+    color: black;
+    border-radius: 10px;
+    /*background: rgba(255, 255, 255, 0.1);*/
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    transform: scale(1.05);
+    font-weight: 800;
+}
+
+#producto{
+    width: 250px;
+    height: 320px;
+}
+
+#nombreArticulo{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#precioArticulo{
+    font-size: 22px;
+    margin-top: 0;
+    color: #199139;
+    font-weight: 900;
+}
